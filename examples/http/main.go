@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	papaya "github.com/papaya/papaya-pay-client"
+	papaya "github.com/Davidc2525/papaya-pay-client-go"
 )
 
 func webhookHandler(w http.ResponseWriter, r *http.Request) {
