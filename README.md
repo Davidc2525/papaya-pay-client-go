@@ -13,7 +13,7 @@ package main
 import (
 	"context"
 	"fmt"
-	papaya "github.com/papaya/papaya-pay-client" // Ajusta el import local o remoto
+	papaya "github.com/Davidc2525/papaya-pay-client-go" // Ajusta el import local o remoto
 )
 
 func main() {
