@@ -56,7 +56,7 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("API Key: %s\n", apiKey)
 		
 		client := papaya.NewClient(apiKey)
-		// client.SetBaseURL("http://localhost:8080") // Descomentar para desarrollo local
+		client.SetBaseURL("http://localhost:80") // Descomentar para desarrollo local
 		
 		// 5. Obtener los detalles completos del checkout
 		log.Println("Consultando detalles del checkout a la API...")
