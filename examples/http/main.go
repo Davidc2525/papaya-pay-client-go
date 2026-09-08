@@ -10,6 +10,8 @@ import (
 	papaya "github.com/Davidc2525/papaya-pay-client-go"
 )
 
+const AMOUNT_SCALE = 10000.0
+
 func webhookHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
