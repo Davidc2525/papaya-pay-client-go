@@ -55,9 +55,10 @@ if err != nil {
 
 El ejemplo incluido levanta un servidor HTTP usando la librería estándar de Go en el puerto `8181`. Te mostrará un flujo real donde recibe un webhook y luego llama al cliente API para conseguir más detalles.
 
-1. Ve a la carpeta de Go:
+1. Clona el repositorio y ve a la carpeta:
    ```bash
-   cd libs/go
+   git clone https://github.com/Davidc2525/papaya-pay-client-go.git
+   cd papaya-pay-client-go
    ```
 2. Asegúrate de tener las dependencias al día:
    ```bash
